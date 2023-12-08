@@ -5,6 +5,7 @@ These are my minimal dotfiles that I use daily. They consist of a simple qtile c
 
 - Terminal: 🏢 alacritty, 🐈 kitty
 - File Manager: 📁 ranger
+- video player : mpv 🎞️
 - Editor: ✍️ lazyvim , 🪄 doom emacs
 - Wallpaper Set: 🖼️ nitrogen
 - Run Prompt: 🚀 rofi, 🪟 qtile run
