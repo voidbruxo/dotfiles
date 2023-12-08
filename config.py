@@ -36,7 +36,6 @@ keys = [
     Key([mod, "control"], "j", lazy.layout.grow_down(), desc="Grow window down"),
     Key([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
     Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
-    #Key([modx],"print",lazy.spawn("import -window root ~/Pictures/image.png"),desc="screen shot tool")
     # Toggle between split and unsplit sides of stack.
     # Split = all windows displayed
     # Unsplit = 1 window displayed, like Max layout, but still with
@@ -159,7 +158,7 @@ screens = [
                 widget.GroupBox(disable_drag=True,background='#6272a4'),
                 widget.Prompt(),
                 widget.WindowName(),
-                widget.Chord(chords_colors={"launch": ("#ff0000", "#ffffff"),},name_transform=lambda name: name.upper(),),
+                #widget.Chord(chords_colors={"launch": ("#ff0000", "#ffffff"),},name_transform=lambda name: name.upper(),),
                 # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
                 # widget.StatusNotifier(),
                 widget.Clock(fmt="󱑇 {}",format="%Y-%m-%d %a %I:%M %p",background="#6272a4"),
@@ -168,7 +167,7 @@ screens = [
                 widget.Memory(format='{MemUsed:.2f}/{MemTotal:.2f}',fmt=" {}",measure_mem='G',background="#5e548e"),
                 widget.Battery(format="  {percent:2.0%}",show_short_text=False,low_percentage=0.2,background="#6272a4"),
                 widget.PulseVolume(volume_down_command = "pactl set-sink-volume @DEFAULT_SINK@ -5%", volume_up_command = "pactl set-sink-volume @DEFAULT_SINK@ +5%", fmt = ' {}',background="#5e548e"),
-                widget.Systray(),
+                #widget.Systray(),
             ],
             24,
             background="#1a1823"
@@ -189,7 +188,7 @@ mouse = [
 
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: list
-follow_mouse_focus = True
+follow_mouse_focus = False
 bring_front_click = False
 floats_kept_above = True
 cursor_warp = False
