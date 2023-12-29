@@ -4,7 +4,7 @@ These are my minimal dotfiles that I use daily. They consist of a simple qtile c
 ## Tools 🛠️
 
 - Terminal: 🏢 alacritty, 🐈 kitty
-- File Manager: 📁 ranger (don't use btw)
+- File Manager: 📁 ranger (I'm not really a FM guy)
 - video player : mpv 🎞️
 - Editor: ✍️ neovim , 🪄 doom emacs
 - Wallpaper Set: 🖼️ nitrogen
