@@ -123,6 +123,8 @@ awful.screen.connect_for_each_screen(function(s)
 end)
 -- {{{ Key bindings
 globalkeys = gears.table.join(
+    awful.key({modx},"y",function () awful.util.spawn("kitty ranger") end),
+    awful.key({modx},"v",function () awful.util.spawn("emacs") end),
     awful.key({modkey},"#48",function () awful.util.spawn("kitty") end),
     awful.key({modx},"m",function () awful.spawn("rofi -show emoji") end),
     awful.key({modx},"#46",function() awful.spawn.with_shell("~/.config/awesome/layout.sh") end),
