@@ -52,7 +52,7 @@ keys = [
     Key([modx],"End",lazy.spawn("loginctl suspend"),desc="suspend system"),
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
-    Key([mod], "x", lazy.window.kill(), desc="Kill focused window"),
+    Key([mod,"Shift"], "c", lazy.window.kill(), desc="Kill focused window"),
     Key([modx],"f",lazy.window.toggle_fullscreen(),desc="Toggle fullscreen on the focused window",),
     Key([mod], "t", lazy.window.toggle_floating(), desc="Toggle floating on the focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
@@ -174,7 +174,8 @@ screens = [
             background="#1a1823"
         
         ),
-
+        wallpaper = '/home/geek/Pictures/japan.png',
+        wallpaper_mode = "fill",
     ),
 ]
 
