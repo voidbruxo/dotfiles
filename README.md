@@ -16,4 +16,4 @@ These are my minimal dotfiles that I use daily. They consist of a simple qtile/a
 - backlight control : xbacklight / brightnessctl ☀️
 - polkit : lxqt-policykit / lxpolkit 🌟
 - TL;DR :: Feel free to customize and use these dotfiles according to your needs. 😊
-- my Linux Distro of choise : artix linux (dinit) 👨‍💻
+- my Linux Distro of choise : void linux / artix linux (dinit) 👨‍💻
