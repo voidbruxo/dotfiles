@@ -1,19 +1,10 @@
-configuration{
-    modi: "run,drun,window,emoji";
-    icon-theme: "Oranchelo";
-    show-icons: true;
-    terminal: "alacritty";
-    drun-display-format: "{icon} {name}";
-    location: 0;
-    disable-history: false;
-    hide-scrollbar: true;
-    display-drun: "  Apps ";
-    display-run: "   Run ";
-    display-emoji: "󰞅 emoji";
-    display-window: "󱂬  Window";
-    display-Network: " 󰤨  Network";
-    sidebar-mode: true;
+configuration {
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   "";
+    display-window: "";
+    display-combi:  "";
+    show-icons:     true;
 }
 
-@theme "catppuccin-mocha"
-
+@theme "~/.config/rofi/gruvbox-material.rasi"
