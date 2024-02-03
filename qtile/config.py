@@ -45,7 +45,7 @@ keys = [
     Key([mod], "g", lazy.spawn("rofi -show drun"), desc="Run Rofi drun"),
     Key([modx],"m",lazy.spawn("rofi -show emoji"),desc="run rofi emoji"),
     Key([mod], "e", lazy.spawn("emacs"), desc="launch emacs"),
-    Key([mod],"y",lazy.spawn("kitty ranger"),desc="my file manager"),
+    Key([mod],"y",lazy.spawn("thunar"),desc="my file manager"),
     Key([mod],"l",lazy.spawn("kitty"),desc="kitty terminal"),
     Key([mod],"f", lazy.spawn("firefox"),desc="launch firefox"),
     Key([modx],"Pause",lazy.spawn("slock"),desc="screen locker"),
@@ -139,7 +139,7 @@ layouts = [
      layout.MonadWide(border_width=0,margin=4),
      layout.RatioTile(border_width=0,margin=4),
      layout.Tile(border_width=0,margin=4),
-     layout.TreeTab(border_width=0,margin=4),
+    ##layout.TreeTab(border_width=0,margin=4),
      layout.VerticalTile(border_width=0,margin=4),
     #layout.Zoomy(),
 ]
@@ -155,26 +155,25 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayout(background="#5e548e"),
-                widget.GroupBox(disable_drag=True,background='#6272a4'),
+                widget.CurrentLayout(background="#af3a03"),
+                widget.GroupBox(disable_drag=True,background='#79740e'),
                 widget.Prompt(),
                 widget.WindowName(),
                 #widget.Chord(chords_colors={"launch": ("#ff0000", "#ffffff"),},name_transform=lambda name: name.upper(),),
                 # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
                 # widget.StatusNotifier(),
-                widget.Clock(fmt="󱑇 {}",format="%Y-%m-%d %a %I:%M %p",background="#6272a4"),
-                widget.KeyboardLayout(configured_keyboards=['us','ir'],background="#5e548e",fmt=' {}'),
-                widget.CPU(fmt=" {}",format='{load_percent}%',padding=5,background="#6272a4"),
-                widget.Memory(format='{MemUsed:.2f}/{MemTotal:.2f}',fmt=" {}",measure_mem='G',background="#5e548e"),
-                widget.Battery(format="  {percent:2.0%}",show_short_text=False,low_percentage=0.2,background="#6272a4"),
-                widget.PulseVolume(volume_down_command = "pactl set-sink-volume @DEFAULT_SINK@ -5%", volume_up_command = "pactl set-sink-volume @DEFAULT_SINK@ +5%", fmt = ' {}',background="#5e548e"),
+                widget.Clock(fmt="󱑇 {}",format="%Y-%m-%d %a %I:%M %p",background="#8f3f71"),
+                widget.KeyboardLayout(configured_keyboards=['us','ir'],background="#076678",fmt=' {}'),
+                widget.CPU(fmt=" {}",format='{load_percent}%',padding=5,background="#427b58"),
+                widget.Memory(format='{MemUsed:.2f}/{MemTotal:.2f}',fmt=" {}",measure_mem='G',background="#9d0006"),
+                widget.Battery(format="  {percent:2.0%}",show_short_text=False,low_percentage=0.2,background="#b57614"),
+                widget.PulseVolume(volume_down_command = "pactl set-sink-volume @DEFAULT_SINK@ -5%", volume_up_command = "pactl set-sink-volume @DEFAULT_SINK@ +5%", fmt = ' {}',background="#af3a03"),
                 widget.Systray(),
             ],
             24,
-            background="#1a1823"
-        
+            background="#3c3836",
         ),
-        wallpaper = '/home/geek/Pictures/japan.png',
+        wallpaper = '/home/geek/Pictures/wall/gruv-ani.png',
         wallpaper_mode = "fill",
     ),
 ]
