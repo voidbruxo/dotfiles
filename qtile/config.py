@@ -1,10 +1,14 @@
 ######      import modules
-from libqtile import bar, layout, widget, hook
+from libqtile import bar, layout, widget, hook, qtile
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from os.path import expanduser
 from subprocess import Popen
 
+if qtile.core.name == "x11":
+    term = "urxvt"
+elif qtile.core.name == "wayland":
+    term = "foot"
 
 mod = "mod4"
 modx = "mod1"
@@ -173,7 +177,7 @@ screens = [
             24,
             background="#3c3836",
         ),
-        wallpaper = '/home/geek/Pictures/wall/gruv-ani.png',
+        wallpaper = '/home/geek/Pictures/wall/fall-jp.png',
         wallpaper_mode = "fill",
     ),
 ]
