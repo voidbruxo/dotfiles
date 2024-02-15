@@ -3,17 +3,21 @@ These are my minimal dotfiles that I use daily. They consist of a simple qtile/a
 
 ## Tools 🛠️
 
-- Terminal: 🏢 alacritty, 🐈 kitty
+- Terminal: 🏢 alacritty, 🐈 kitty, st
 - File Manager: 📁 ranger (I'm not really a FM guy)
 - video player : mpv 🎞️
+- Music Player : cmus :D (it's TUI BTW)
 - Editor: ✍️ neovim , 🪄 doom emacs
-- Wallpaper Set: 🖼️ nitrogen
-- Run Prompt: 🚀 rofi, 🪟 qtile run
+- Wallpaper Set: 🖼️ nitrogen / feh
+- Run Prompt: 🚀 rofi, 🪟 qtile run, dmenu
 - Compositor: 🎨 picom
 - Font for Bar: 💼 JetBrainsMono Nerd Font
 - Screenshot Tool: 📸 scrot
 - Lock Screen Tool: 🔒 slock
 - backlight control : xbacklight / brightnessctl ☀️
 - polkit : lxqt-policykit / lxpolkit 🌟
+# my note
 - TL;DR :: Feel free to customize and use these dotfiles according to your needs. 😊
-- my Linux Distro of choise : void linux / artix linux (dinit) 👨‍💻
+--------------------------------------------------------------------------------------------------
+#my Linux Distro of choise : artix linux (dinit) 👨‍💻
+#my current Window Manager : dwm :D <3
