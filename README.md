@@ -1,4 +1,4 @@
-## dotfiles 👨🏻‍💻🌟💻
+# dotfiles 👨🏻‍💻🌟💻
 These are my minimal dotfiles that I use daily. They consist of a simple qtile/awesome config that is designed to be minimalistic, without any unnecessary bloatware. It is not intended for ricing, but rather for daily use with low dependencies.
 
 ## Tools 🛠️
@@ -16,8 +16,8 @@ These are my minimal dotfiles that I use daily. They consist of a simple qtile/a
 - Lock Screen Tool: 🔒 slock
 - backlight control : xbacklight / brightnessctl ☀️
 - polkit : lxqt-policykit / lxpolkit 🌟
-# my note
+## my note
 - TL;DR :: Feel free to customize and use these dotfiles according to your needs. 😊
 --------------------------------------------------------------------------------------------------
-# my Linux Distro of choise : artix linux (dinit) 👨‍💻
-# my current Window Manager : dwm :D <3
+## my Linux Distro of choise : artix linux (dinit) 👨‍💻
+## my current Window Manager : dwm :D <3
