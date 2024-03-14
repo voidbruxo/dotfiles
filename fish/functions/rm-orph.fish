@@ -1,4 +1,4 @@
-function rm-orph --wraps='sudo pacman -Rscn $(sudo pacman -Qtdq)' --description 'alias rm-orph=sudo pacman -Rscn $(sudo pacman -Qtdq)'
-  sudo pacman -Rscn $(sudo pacman -Qtdq) $argv
+function rm-orph --wraps='doas pacman -Rscn ' --description 'alias rm-orph=doas pacman -Rscn '
+  doas pacman -Rscn  $argv
         
 end
