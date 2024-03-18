@@ -7,7 +7,7 @@ These are my minimal dotfiles that I use daily. They consist of a simple qtile/a
 - File Manager: 📁 ranger (I'm not really a FM guy)
 - video player : mpv 🎞️
 - Music Player : cmus :D (it's TUI BTW)
-- Editor: ✍️ neovim , 🪄 doom emacs
+- Editor: ✍️ neovim
 - Wallpaper Set: 🖼️ nitrogen / feh
 - Run Prompt: 🚀 rofi, 🪟 qtile run, dmenu
 - Compositor: 🎨 picom
