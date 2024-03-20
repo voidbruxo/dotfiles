@@ -23,5 +23,5 @@ alias bat-info="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias vim="nvim"
 alias neko="/home/geek/apps/nekoray/launcher &"
 alias grub-update="doas grub-mkconfig -o /boot/grub/grub.cfg"
-
+export EDITOR=/usr/bin/nvim
 # Put your fun stuff here.
