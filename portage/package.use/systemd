@@ -1,1 +1,1 @@
-sys-apps/systemd-utils -cdrom -disk -floppy
+sys-apps/systemd-utils -boot -secureboot -selinux -kernel-install -test -acl
