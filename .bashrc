@@ -27,10 +27,12 @@ alias neko="/home/geek/apps/nekoray/launcher&disown&exit"
 alias chrome="/home/geek/apps/ungoogled-chromium/chrome&disown&exit"
 alias grub-update="doas grub-mkconfig -o /boot/grub/grub.cfg"
 alias paclist="doas qlist -IRv | less"
-alias syncrepo="doas eix-sync && doas emerge --sync && doas emaint sync -a"
 
 # export homies
 export EDITOR=/usr/bin/nvim
 export TERM="xterm-256color"
+
+#add .bin and subs as path
+export PATH=$(find /home/geek/.bin -type d -printf "%p:" | tr -d '\n')$PATH
 
 # Put your fun stuff here.
