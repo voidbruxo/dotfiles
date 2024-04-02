@@ -26,12 +26,14 @@ alias vim="nvim"
 alias neko="/home/geek/apps/nekoray/launcher&disown&exit"
 alias grub-update="doas grub-mkconfig -o /boot/grub/grub.cfg"
 alias paclist="doas qlist -IRv | less"
+alias chrome="/home/geek/apps/ungoogled-chromium/chrome&disown&exit"
+alias logseq="/home/geek/apps/Logseq-linux-x64/Logseq&disown&exit"
+alias dnsproxy="/home/geek/apps/dnsproxy/dnsproxy"
 
 # export homies
 export EDITOR=/usr/bin/nvim
 export TERM="xterm-256color"
 
 #add .bin and subs as path
-export PATH=$(find /home/geek/.bin -type d -printf "%p:" | tr -d '\n')$PATH
 
 # Put your fun stuff here.
