@@ -33,7 +33,7 @@ alias dnsproxy="/home/geek/apps/dnsproxy/dnsproxy"
 # export homies
 export EDITOR=/usr/bin/nvim
 export TERM="xterm-256color"
-
+export PATH="/home/geek/.local/bin/:$PATH"
 #add .bin and subs as path
 
 # Put your fun stuff here.
