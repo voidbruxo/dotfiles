@@ -1,0 +1,2 @@
+net-misc/dhcpcd embedded ipv6 udev -debug -privsep
+
