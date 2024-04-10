@@ -1,9 +1,7 @@
 #!/bin/bash
 
-WALL_DIR=~/Pictures/wall
-
 while true; do
-	WALLPAPER=$(ls $WALL_DIR | shuf -n 1)
-	feh --bg-tile $WALL_DIR/$WALLPAPER
-	sleep 3600
+    find ~/Pictures/wall -type f -name "*.jpg" -o -name "*.png" | shuf -n 1 | xargs feh --bg-fill
+    sleep 1h
+
 done
