@@ -4,7 +4,7 @@ slstatus &
 xscreensaver -nosplash &
 ~/.config/wallp.sh &
 #/usr/bin/emacs --daemon &
-picom --config ~/.config/picom/picom.conf &
+#picom &
 #pipewire &
 #pipewire-pulse &
 #wireplumber &
