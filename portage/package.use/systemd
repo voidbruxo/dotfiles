@@ -1,1 +1,1 @@
-sys-apps/systemd-utils -boot -secureboot -selinux -kernel-install -test -acl
+sys-apps/systemd-utils -boot -secureboot -selinux -kernel-install -test -acl -ukify

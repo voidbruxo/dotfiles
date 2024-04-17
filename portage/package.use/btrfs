@@ -1,0 +1,2 @@
+sys-fs/btrfs-progs zstd udev
+sys-boot/grub -themes -libzfs 
