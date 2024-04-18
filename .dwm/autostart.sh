@@ -1,8 +1,8 @@
 #!/bin/bash
 /usr/bin/lxpolkit &
 slstatus &
-xscreensaver -nosplash &
 ~/.config/wallp.sh &
+#xscreensaver -nosplash &
 #/usr/bin/emacs --daemon &
 #picom &
 #pipewire &
