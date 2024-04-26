@@ -21,5 +21,5 @@ These are my minimal dotfiles that I use daily. They consist of a simple qtile/a
 ## my note
 - TL;DR :: Feel free to customize and use these dotfiles according to your needs. 😊
 --------------------------------------------------------------------------------------------------
-### my Linux Distro of choise : Gentoo / artix linux (dinit) 👨‍💻
+### my Linux Distro of choise : Gentoo 👨‍💻
 ### my current Window Manager : dwm :D <3
