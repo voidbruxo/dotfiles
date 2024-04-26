@@ -23,13 +23,12 @@ alias update-fix="doas emerge -avuUND --changed-use --with-bdeps=y --binpkg-resp
 alias firefox="firefox-bin"
 alias bat-info="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias vim="nvim"
-alias neko="/home/geek/apps/nekoray/launcher&disown&exit"
+alias neko="/home/geek/.local/apps/nekoray/launcher&disown&exit"
 alias grub-update="doas grub-mkconfig -o /boot/grub/grub.cfg"
 alias paclist="doas eix-installed all | less"
-alias chrome="/home/geek/apps/ungoogled-chromium/chrome&disown&exit"
-alias logseq="/home/geek/apps/Logseq-linux-x64/Logseq&disown&exit"
-alias dnsproxy="/home/geek/apps/dnsproxy/dnsproxy"
-alias xonotic="prime-run /home/geek/apps/games/Xonotic/xonotic-linux-glx.sh&disown&exit"
+alias chrome="/home/geek/.local/apps/ungoogled-chromium/chrome&disown&exit"
+alias xonotic="prime-run /home/geek/.local/apps/games/Xonotic/xonotic-linux-glx.sh&disown&exit"
+alias sys-time="stat / | awk '/Birth: /{print }' $argv"
 
 # export homies
 export EDITOR=/usr/bin/nvim
