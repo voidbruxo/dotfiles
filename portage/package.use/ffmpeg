@@ -1,3 +1,3 @@
- media-video/ffmpeg openh264 vaapi vdpau cuda x265 webp nvenc vulkan
+ media-video/ffmpeg openh264 vaapi vdpau cuda x265 webp nvenc vulkan nvenc
  media-libs/mesa vaapi vdpau
- media-video/mpv pipewire vdpau vaapi alsa opengl vulkan openal -cdda
+ media-video/mpv pipewire vdpau vaapi alsa opengl vulkan openal nvenc -cdda
