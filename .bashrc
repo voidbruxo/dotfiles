@@ -19,6 +19,7 @@ alias chrome="/home/geek/.local/apps/ungoogled-chromium/chrome&disown&exit"
 alias xonotic="prime-run /home/geek/.local/apps/games/Xonotic/xonotic-linux-glx.sh&disown&exit"
 alias sys-time="stat / | awk '/Birth: /{print }' $argv"
 alias ls="~/.local/bin/lsd"
+alias btop="htop"
 
 # export homies
 export EDITOR=/usr/bin/nvim
