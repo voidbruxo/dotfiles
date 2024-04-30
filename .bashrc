@@ -1,19 +1,8 @@
-# /etc/skel/.bashrc
-#
-# This file is sourced by all *interactive* bash shells on startup,
-# including some apparently interactive shells such as scp and rcp
-# that can't tolerate any output.  So make sure this doesn't display
-# anything or bad things will happen !
-
-
-# Test for an interactive shell.  There is no need to set anything
-# past this point for scp and rcp, and it's important to refrain from
 # outputting anything in those cases.
 if [[ $- != *i* ]] ; then
 	# Shell is non-interactive.  Be done now!
 	return
 fi
-
 # alias homies
 alias fetch="fastfetch"
 alias neofetch="fastfetch"
@@ -36,6 +25,5 @@ export EDITOR=/usr/bin/nvim
 export TERM="xterm-256color"
 export PATH="/home/geek/.local/bin/:$PATH"
 
-#add .bin and subs as path
-
-# Put your fun stuff here.
+#my prompt
+PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[38;5;255;48;5;104;1;3m\]\u\[\e[0;1;48;5;98m\]@\[\e[48;5;132;3m\]\h\[\e[23;48;5;241m\]#\[\e[22m\]\w\[\e[38;5;255;48;5;28m\]${PS1_CMD1}\[\e[0;38;5;148;1m\]\$\[\e[0m\]'
