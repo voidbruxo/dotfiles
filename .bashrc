@@ -20,6 +20,7 @@ alias xonotic="prime-run /home/geek/.local/apps/games/Xonotic/xonotic-linux-glx.
 alias sys-time="stat / | awk '/Birth: /{print }' $argv"
 alias ls="~/.local/bin/lsd"
 alias btop="htop"
+alias math="kalker"
 
 # export homies
 export EDITOR=/usr/bin/nvim
