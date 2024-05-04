@@ -16,7 +16,7 @@ These are my minimal dotfiles that I use daily. They consist of a simple qtile/a
 - Lock Screen Tool: 🔒 slock
 - backlight control : xbacklight / brightnessctl ☀️
 - polkit : lxqt-policykit / lxpolkit 🌟
-- Shell : vanilla Bash
+- Shell : Fish / Bash
 - screensaver: xscreensaver :D
 ## my note
 - TL;DR :: Feel free to customize and use these dotfiles according to your needs. 😊
