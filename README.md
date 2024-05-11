@@ -18,6 +18,7 @@ These are my minimal dotfiles that I use daily. They consist of a simple qtile/a
 - polkit : lxqt-policykit / lxpolkit 🌟
 - Shell : Fish / Bash
 - screensaver: xscreensaver :D
+- root privileges controler : opendoas
 ## my note
 - TL;DR :: Feel free to customize and use these dotfiles according to your needs. 😊
 --------------------------------------------------------------------------------------------------
