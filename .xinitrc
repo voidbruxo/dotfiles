@@ -1,4 +1,2 @@
-
 exec picom &
-exec xscreensaver -nosplash &
-exec dbus-launch --exit-with-session dwm
+exec dbus-launch --exit-with-session sh -c 'while :; do dwm; done'
