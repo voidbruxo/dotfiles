@@ -14,7 +14,7 @@ while true; do
   time_icon=""
   bat_icon="" # FontAwesome clock icon
   # Output the status line with icons
-  echo "${bat_icon} ${bat} | ${brightness_icon} ${brightness}% | ${vol_icon} ${volume} | ${date_icon} ${date_time} | ${time_icon} $(date '+%H:%M')"
+  echo "${bat_icon} ${bat} | ${brightness_icon} ${brightness}% | ${vol_icon}  ${volume} | ${date_icon} ${date_time} | ${time_icon} $(date '+%H:%M')"
   # Sleep for 1 second before updating again
   sleep 1
 done
