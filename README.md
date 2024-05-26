@@ -20,7 +20,3 @@ These are my minimal dotfiles that I use daily. They consist of a simple qtile/a
 - root privileges controler : opendoas
 ## my note
 - TL;DR :: Feel free to customize and use these dotfiles according to your needs. 😊
---------------------------------------------------------------------------------------------------
-### my Linux Distro of choise : Gentoo / Debian stable 👨‍💻
-### my current Window Manager : dwm :D <3
-### my current Desktop Enviroment : xfce :)
