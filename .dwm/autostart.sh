@@ -1,12 +1,11 @@
 #!/bin/bash
-/usr/bin/lxpolkit &
+lxpolkit &
+lxclipboard &
 slstatus &
 ~/.config/wallp.sh &
-#xscreensaver -nosplash &
-#/usr/bin/emacs --daemon &
+xscreensaver -nosplash &
 #picom &
 #pipewire &
 #pipewire-pulse &
 #wireplumber &
-#/usr/bin/artix-pipewire-launcher &
 /usr/bin/gentoo-pipewire-launcher
