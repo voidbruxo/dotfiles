@@ -16,11 +16,9 @@ alias neko="/home/geek/.local/apps/nekoray/launcher&disown&exit"
 alias grub-update="doas grub-mkconfig -o /boot/grub/grub.cfg"
 alias paclist="doas eix-installed all | less"
 alias chrome="/home/geek/.local/apps/ungoogled-chromium/chrome&disown&exit"
-alias xonotic="prime-run /home/geek/.local/apps/games/Xonotic/xonotic-linux-glx.sh&disown&exit"
+alias xonotic="prime-run /home/geek/.local/games/Xonotic/xonotic-linux-glx.sh&disown&exit"
 alias sys-time="stat / | awk '/Birth: /{print }' $argv"
 alias ls="~/.local/bin/lsd"
-alias btop="htop"
-alias math="kalker"
 
 # export homies
 export EDITOR=/usr/bin/nvim
