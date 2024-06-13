@@ -1,3 +1,6 @@
  media-video/ffmpeg openh264 vaapi vdpau cuda x265 webp nvenc vulkan nvenc
  media-libs/mesa vaapi vdpau
  media-video/mpv pipewire vdpau vaapi alsa opengl vulkan openal nvenc -cdda
+ media-fonts/noto X extra cjk
+ media-fonts/noto-emoji icons
+ app-misc/tmux -vim-syntax

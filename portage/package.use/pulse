@@ -1,2 +1,2 @@
-media-video/pipewire sound-server pipewire-alsa jack-client
+media-video/pipewire sound-server pipewire-alsa jack-client extra
 media-sound/pulseaudio -daemon
