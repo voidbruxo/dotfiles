@@ -16,12 +16,13 @@ alias neko="/home/geek/.local/apps/nekoray/launcher&disown&exit"
 alias grub-update="doas grub-mkconfig -o /boot/grub/grub.cfg"
 alias paclist="doas eix-installed all | less"
 alias chrome="/home/geek/.local/apps/ungoogled-chromium/chrome&disown&exit"
-alias xonotic="prime-run /home/geek/.local/games/Xonotic/xonotic-linux-glx.sh&disown&exit"
+alias xonotic="prime-run /home/geek/.local/games/foss/Xonotic/xonotic-linux-glx.sh&disown&exit"
 alias sys-time="stat / | awk '/Birth: /{print }' $argv"
 alias ls="~/.local/bin/lsd"
 
 # export homies
-export EDITOR=/usr/bin/nvim
+export EDITOR=nvim
+export VISUAL=nvim
 export TERM="xterm-256color"
 export PATH="/home/geek/.local/bin/:$PATH"
 source ~/.config/git-prompt.sh
