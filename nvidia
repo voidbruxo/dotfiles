@@ -1,7 +1,0 @@
-#!/bin/sh
-
-case "$1" in
-    post)
-        /usr/bin/nvidia-sleep.sh "resume"
-        ;;
-esac
