@@ -1,0 +1,27 @@
+#!/bin/bash
+
+case $1/$2 in
+  pre/*)
+    # Put here any commands expected to be run when suspending or hibernating.
+    connmanctl disable ethernet
+    connmanctl disable wifi
+    dinitctl stop connmand
+    sleep 1
+    modprobe -r e1000e
+    modprobe -r iwlwifi
+    ip link set eth0 down
+    ip linl set wlan0 down
+    ;;
+  post/*)
+    # Put here any commands expected to be run when resuming from suspension or thawing from hibernation.
+    modprobe -v e1000e
+    modprobe -v iwlwifi
+    ip link set eth0 up
+    ip link set wlan0 up
+    sleep 1
+    dinitctl start connmand
+    sleep 1
+    connmanctl enable ethernet
+    connmanctl enable wifi
+    ;;
+esac
