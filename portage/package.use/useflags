@@ -1,0 +1,26 @@
+sys-kernel/installkernel dracut
+sys-fs/btrfs-progs zstd udev
+sys-boot/grub -themes -libzfs
+media-video/ffmpeg openh264 vaapi vdpau cuda x265 webp nvenc vulkan nvenc
+media-libs/mesa vaapi vdpau
+media-video/mpv pipewire vdpau vaapi alsa opengl vulkan openal nvenc -cdda
+media-fonts/noto X extra cjk
+media-fonts/noto-emoji icons
+app-misc/tmux vim-syntax
+net-firewall/nftables json python xtables
+sys-kernel/linux-firmware redistributable -savedconfig -bindist -compress-xz compress-zstd deduplicate initramfs unknown-license
+sys-firmware/intel-microcode initramfs
+net-misc/networkmanager bluetooth concheck elogind -gtk-doc introspection modemmanager nss policykit -ppp tools wext wifi
+net-misc/connman -debug -doc -examples -iptables -iwd -l2tp -networkmanager -ofono -openconnect -openvpn -pptp tools -vpnc -wireguard -wispr
+x11-drivers/nvidia-drivers powerd persistenced
+dev-libs/libgcrypt static-libs
+dev-libs/libgpg-error static-libs
+dev-libs/lzo static-libs
+media-gfx/feh xinerama
+media-libs/imlib2 X bzip2 filters gif jpeg mp3 png shm svg text tiff webp zlib jpeg2k jpegxl jpg png
+media-video/pipewire sound-server pipewire-alsa jack-client extra
+media-sound/pulseaudio -daemon
+sys-apps/systemd-utils -boot -secureboot -selinux
+media-libs/vulkan-loader wayland
+media-libs/libsdl2 gles2
+x11-misc/xscreensaver locking logind-idle-hint elogind
