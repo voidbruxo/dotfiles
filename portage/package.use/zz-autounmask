@@ -1,3 +1,0 @@
-# package.use
->=sys-kernel/installkernel-29 dracut
->=sys-devel/llvm-16.0.6 zstd
