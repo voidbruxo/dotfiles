@@ -1,4 +1,0 @@
-net-misc/networkmanager bluetooth concheck elogind -gtk-doc introspection modemmanager nss policykit -ppp tools wext wifi
-net-misc/dhcpcd embedded ipv6 udev -debug -privsep
-net-misc/connman -debug -doc -examples -iptables -iwd -l2tp -networkmanager -ofono -openconnect -openvpn -pptp tools -vpnc -wireguard -wispr"
-
