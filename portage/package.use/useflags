@@ -6,7 +6,7 @@ media-libs/mesa vaapi vdpau
 media-video/mpv pipewire vdpau vaapi alsa opengl vulkan openal nvenc -cdda
 media-fonts/noto X extra cjk
 media-fonts/noto-emoji icons
-app-misc/tmux vim-syntax
+app-misc/tmux -vim-syntax
 net-firewall/nftables json python xtables
 sys-kernel/linux-firmware redistributable -savedconfig -bindist -compress-xz compress-zstd deduplicate initramfs unknown-license
 sys-firmware/intel-microcode initramfs
