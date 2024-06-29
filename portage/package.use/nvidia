@@ -1,4 +1,0 @@
-x11-drivers/nvidia-drivers powerd persistenced
->=dev-libs/libgcrypt-1.10.3-r2 static-libs
-dev-libs/libgpg-error static-libs
-dev-libs/lzo static-libs
