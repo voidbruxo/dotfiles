@@ -13,10 +13,10 @@ These are my minimal dotfiles that I use daily. They consist of a simple qtile/a
 - Compositor: 🎨 picom
 - Font for Bar: 💼 JetBrainsMono Nerd Font
 - Screenshot Tool: 📸 scrot
-- Lock Screen and screensaver Tool : 🔒 xscreensaver
+- Lock Screen : 🔒 slock
 - backlight control : xbacklight / brightnessctl ☀️
 - polkit : lxpolkit 🌟
 - Shell : Fish / Bash
-- root privileges controler : opendoas
+- root privileges controler : opendoas / sudo
 ## my note
 - TL;DR :: Feel free to customize and use these dotfiles according to your needs. 😊
