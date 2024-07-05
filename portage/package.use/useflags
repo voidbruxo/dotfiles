@@ -1,4 +1,4 @@
-sys-kernel/installkernel dracut
+sys-kernel/installkernel dracut systemd
 sys-fs/btrfs-progs zstd udev
 sys-boot/grub -themes -libzfs
 media-video/ffmpeg openh264 vaapi vdpau cuda x265 webp nvenc vulkan nvenc
@@ -10,8 +10,7 @@ app-misc/tmux -vim-syntax
 net-firewall/nftables json python xtables
 sys-kernel/linux-firmware redistributable -savedconfig -bindist -compress-xz compress-zstd deduplicate initramfs unknown-license
 sys-firmware/intel-microcode initramfs
-net-misc/networkmanager bluetooth concheck elogind -gtk-doc introspection modemmanager nss policykit -ppp tools wext wifi
-net-misc/connman -debug -doc -examples -iptables -iwd -l2tp -networkmanager -ofono -openconnect -openvpn -pptp tools -vpnc -wireguard -wispr
+net-misc/networkmanager -bluetooth concheck elogind -gtk-doc -introspection modemmanager nss policykit -ppp tools -wext wifi dhclient resolvconf
 x11-drivers/nvidia-drivers powerd persistenced
 dev-libs/libgcrypt static-libs
 dev-libs/libgpg-error static-libs
@@ -24,3 +23,5 @@ sys-apps/systemd-utils -boot -secureboot -selinux
 media-libs/vulkan-loader wayland
 media-libs/libsdl2 gles2
 x11-misc/xscreensaver locking logind-idle-hint elogind
+net-firewall/firewalld -gui
+sys-libs/zlib abi_x86_32
