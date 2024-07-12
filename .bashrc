@@ -5,14 +5,15 @@ if [[ $- != *i* ]] ; then
 fi
 
 # alias homies
+alias sudo="run0"
 alias neofetch="fastfetch"
-alias update="sudo emerge -avuUND --changed-use --with-bdeps=y --binpkg-respect-use=y @world"
+alias update="run0 emerge -avuUND --changed-use --with-bdeps=y --binpkg-respect-use=y @world"
 alias firefox="firefox-bin"
 alias bat-info="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias vim="nvim"
 alias neko="/home/geek/.local/apps/nekoray/launcher&disown&exit"
-alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-alias paclist="sudo eix-installed all | less"
+alias grub-update="run0 grub-mkconfig -o /boot/grub/grub.cfg"
+alias paclist="run0 eix-installed all | less"
 alias chrome="/home/geek/.local/apps/ungoogled-chromium/chrome&disown&exit"
 alias xonotic="prime-run /home/geek/.local/games/foss/Xonotic/xonotic-linux-glx.sh&disown&exit"
 alias sublime="~/.local/apps/sublime_text/sublime_text & disown & exit"
