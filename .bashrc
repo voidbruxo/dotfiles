@@ -9,12 +9,10 @@ alias neofetch="fastfetch"
 alias update="sudo emerge -avuUND --changed-use --with-bdeps=y --binpkg-respect-use=y @world"
 alias firefox="firefox-bin"
 alias bat-info="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
-alias vim="nvim"
 alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias paclist="sudo eix-installed all | less"
 alias sys-time="stat / | awk '/Birth: /{print }' $argv"
 alias ls="~/.local/bin/lsd"
-alias neko="~/.local/apps/nekoray/nekoray & disown & exit"
 
 # export homies
 export EDITOR=nvim
