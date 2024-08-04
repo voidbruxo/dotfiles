@@ -5,9 +5,9 @@ These are my minimal dotfiles that I use daily. They consist of a simple Window 
 
 - Terminal: 🏢 alacritty, 🐈 kitty, st
 - File Manager: 📁 ranger (I'm not really a FM guy)
-- video player : mpv 🎞️
+- video player : mpv / qmplay2 🎞️
 - Music Player : cmus :D (it's TUI BTW)
-- Editor: ✍️ neovim
+- Editor: ✍️ vim
 - Wallpaper Set: 🖼️ nitrogen / feh
 - Run Prompt: 🚀 rofi, 🪟 qtile run, dmenu
 - Compositor: 🎨 picom
