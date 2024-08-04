@@ -14,7 +14,7 @@ These are my minimal dotfiles that I use daily. They consist of a simple Window 
 - Font for Bar: 💼 JetBrainsMono Nerd Font
 - Screenshot Tool: 📸 scrot
 - Lock Screen : 🔒 slock
-- backlight control : xbacklight / brightnessctl ☀️
+- backlight control : brightnessctl ☀️
 - polkit : lxpolkit 🌟
 - Shell : Fish / Bash
 - root privileges controler : opendoas / sudo
