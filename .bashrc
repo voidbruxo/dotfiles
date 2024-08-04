@@ -15,8 +15,8 @@ alias sys-time="stat / | awk '/Birth: /{print }' $argv"
 alias ls="~/.local/bin/lsd"
 
 # export homies
-export EDITOR=nvim
-export VISUAL=nvim
+export EDITOR=vim
+export VISUAL=vim
 export TERM="xterm-256color"
 export PATH="/home/geek/.local/bin/:$PATH"
 source ~/.config/git-prompt.sh
