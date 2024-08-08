@@ -19,6 +19,7 @@ export EDITOR=vim
 export VISUAL=vim
 export TERM="xterm-256color"
 export PATH="/home/geek/.local/bin/:$PATH"
+export PATH="/home/geek/.config/emacs/bin/:$PATH"
 source ~/.config/git-prompt.sh
 
 #my prompt
