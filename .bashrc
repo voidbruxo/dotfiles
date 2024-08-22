@@ -12,7 +12,7 @@ alias bat-info="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias paclist="sudo eix-installed all | less"
 alias sys-time="stat / | awk '/Birth: /{print }' $argv"
-alias ls="~/.local/bin/lsd"
+alias ls="lsd"
 
 # export homies
 export EDITOR=vim
