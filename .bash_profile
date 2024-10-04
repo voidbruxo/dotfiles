@@ -7,5 +7,5 @@ if [[ -f ~/.bashrc ]] ; then
 fi
 
 if [[ $(tty) == "/dev/tty1" ]]; then
-    startx
+    startx -- vt1
 fi
