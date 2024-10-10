@@ -13,6 +13,7 @@ alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias paclist="sudo eix-installed all | less"
 alias sys-time="stat / | awk '/Birth: /{print }' $argv"
 alias ls="lsd"
+alias mat-exec="LD_PRELOAD=/usr/lib/gcc/x86_64-pc-linux-gnu/13/libstdc++.so prime-run exec matlab -desktop & disown & exit"
 
 # export homies
 export EDITOR=vim
