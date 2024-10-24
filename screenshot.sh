@@ -4,4 +4,4 @@
 filename=$(date +%s%N | md5sum | awk '{print $1}').png
 
 # Take the screenshot using scrot with the random filename
-scrot /home/geek/Pictures/screenshots/"$filename"
+scrot /home/"$(whoami)"//Pictures/screenshots/"$filename"
