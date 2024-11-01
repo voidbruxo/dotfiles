@@ -19,6 +19,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline'
   Plug 'preservim/nerdtree'
   Plug 'powerline/fonts'
+  Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+  Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 
 
@@ -37,7 +39,4 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 
 " vimairline fonts
 let g:airline_powerline_fonts = 1
-" vim theme magic
-set termguicolors
-let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+colorscheme dracula

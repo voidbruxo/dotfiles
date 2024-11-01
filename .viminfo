@@ -11,22 +11,46 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/broken
+~MSle0~/1.1.1.1
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:q!
-|2,0,1729793399,,"q!"
-:1
-|2,0,1729793397,,"1"
 :q
-|2,0,1729793390,,"q"
+|2,0,1730475321,,"q"
 :e .bashrc
-|2,0,1729793257,,"e .bashrc"
+|2,0,1730474083,,"e .bashrc"
+:1
+|2,0,1730474003,,"1"
+:q!
+|2,0,1730473990,,"q!"
+:PlugInstall
+|2,0,1730473975,,"PlugInstall"
+:"q
+|2,0,1730473945,,"\"q"
+:w
+|2,0,1730473944,,"w"
 :wq
-|2,0,1729793219,,"wq"
+|2,0,1730473766,,"wq"
+:e .vim/r
+|2,0,1730473759,,"e .vim/r"
+:colorscheme catppuccin-mocha
+|2,0,1730473673,,"colorscheme catppuccin-mocha"
+:colorscheme elflord
+|2,0,1730473500,,"colorscheme elflord"
+:colorscheme dracula
+|2,0,1730473226,,"colorscheme dracula"
+:.,.+1!'
+|2,0,1730463717,,".,.+1!'"
+:e
+|2,0,1730349527,,"e"
+:q!\
+|2,0,1729839304,,"q!\\"
+:Q
+|2,0,1729835425,,"Q"
+:e .cache/nvim/fidget.nvim.log
+|2,0,1729795255,,"e .cache/nvim/fidget.nvim.log"
 ::q
 |2,0,1729793102,,":q"
 :111
@@ -37,16 +61,12 @@ $
 |2,0,1729786692,,"246"
 :211
 |2,0,1729786586,,"211"
-:w
-|2,0,1729785493,,"w"
 :1111
 |2,0,1729751301,,"1111"
 :11111
 |2,0,1729751103,,"11111"
 :.q
 |2,0,1729708517,,".q"
-:Q
-|2,0,1729708464,,"Q"
 :L
 |2,0,1729511527,,"L"
 :colder
@@ -63,10 +83,12 @@ $
 |2,0,1728575590,,"'<,'>q"
 
 # Search String History (newest to oldest):
+?/1.1.1.1
+|2,1,1730365389,47,"1.1.1.1"
+? @$
+|2,1,1730009195,,"@$"
 ?/broken
 |2,1,1729787406,47,"broken"
-? @$
-|2,1,1729769959,,"@$"
 ?/color
 |2,1,1729417265,47,"color"
 ?/Char
@@ -119,275 +141,273 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	
-	
-|3,0,0,1,2,0,1729769959,"",""
+"0	CHAR	0
+	#
+|3,0,0,0,1,0,1730009196,"#"
 ""1	LINE	0
-	ghp_TXXHI5B0f5oA9KxMk1k68rqAYBzGpj4Ke6Le
-|3,1,1,1,1,0,1729788748,"ghp_TXXHI5B0f5oA9KxMk1k68rqAYBzGpj4Ke6Le"
+	colorscheme catppuccin
+|3,1,1,1,1,0,1730473765,"colorscheme catppuccin"
 "2	LINE	0
-		{ MODKEY,                       XK_space,  spawn,	   {.v = layoutt}},
-|3,0,2,1,1,0,1729787779,"	{ MODKEY,                       XK_space,  spawn,	   {.v = layoutt}},"
+	" vim theme magic
+|3,0,2,1,1,0,1730473336,"\" vim theme magic"
 "3	LINE	0
-	static int sendevent(Client *c, Atom ddddproto);
-|3,0,3,1,1,0,1729786666,"static int sendevent(Client *c, Atom ddddproto);"
+	set termguicolors
+|3,0,3,1,1,0,1730473336,"set termguicolors"
 "4	LINE	0
-	//	{ MODKEY,			XK_e,	   spawn,	   {.v = filez } },
-|3,0,4,1,1,0,1729786213,"//	{ MODKEY,			XK_e,	   spawn,	   {.v = filez } },"
+	let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+|3,0,4,1,1,0,1730473335,"let &t_8b = \"\\<Esc>[48;2;%lu;%lu;%lum\""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1729785864,""
+	let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+|3,0,5,1,1,0,1730473335,"let &t_8f = \"\\<Esc>[38;2;%lu;%lu;%lum\""
 "6	LINE	0
-		i
-|3,0,6,1,1,0,1729785332,"	i"
+	
+|3,0,6,1,1,0,1730473333,""
 "7	LINE	0
-	static const char dmenufont[]       = "monospace:size=10";
-|3,0,7,1,1,0,1729785221,"static const char dmenufont[]       = \"monospace:size=10\";"
+	# gtk-icon-theme-name=breeze-dark
+|3,0,7,1,1,0,1730464118,"# gtk-icon-theme-name=breeze-dark"
 "8	LINE	0
-	static const char *fonts[]          = { "monospace:size=10" };
-|3,0,8,1,1,0,1729785220,"static const char *fonts[]          = { \"monospace:size=10\" };"
+	
+	
+|3,0,8,1,2,0,1730023119,"",""
 "9	LINE	0
-	static const int topbar             = 1;        /* 0 means bottom bar */
-|3,0,9,1,1,0,1729785219,"static const int topbar             = 1;        /* 0 means bottom bar */"
+	fi
+|3,0,9,1,1,0,1730023118,"fi"
 "i	CHAR	0
 	!/
 |3,0,18,0,1,0,1729752036,"!/"
 "-	CHAR	0
-	V
-|3,0,36,0,1,0,1729788746,"V"
+	#
+|3,0,36,0,1,0,1729795304,"#"
 
 # File marks:
-'0  1  0  ~/.bashrc
-|4,48,1,0,1729793399,"~/.bashrc"
-'1  35  0  ~/.bashrc
-|4,49,35,0,1729793262,"~/.bashrc"
-'2  35  0  ~/.bashrc
-|4,50,35,0,1729793262,"~/.bashrc"
+'0  15  0  ~/.bashrc
+|4,48,15,0,1730474231,"~/.bashrc"
+'1  1  0  ~/.bashrc
+|4,49,1,0,1730474217,"~/.bashrc"
+'2  1  0  ~/.bashrc
+|4,50,1,0,1730474217,"~/.bashrc"
 '3  1  0  ~/.bashrc
-|4,51,1,0,1729793240,"~/.bashrc"
+|4,51,1,0,1730474086,"~/.bashrc"
 '4  1  0  ~/.bashrc
-|4,52,1,0,1729793240,"~/.bashrc"
+|4,52,1,0,1730474086,"~/.bashrc"
 '5  1  0  ~/.bashrc
-|4,53,1,0,1729793240,"~/.bashrc"
-'6  1  0  ~/.config/nvim/init.lua
-|4,54,1,0,1729793226,"~/.config/nvim/init.lua"
-'7  41  16  ~/.vimrc
-|4,55,41,16,1729793219,"~/.vimrc"
-'8  1  39  ~/Documents/data/EMIR/dotfiles
-|4,56,1,39,1729788790,"~/Documents/data/EMIR/dotfiles"
-'9  1  39  ~/Documents/data/EMIR/dotfiles
-|4,57,1,39,1729788752,"~/Documents/data/EMIR/dotfiles"
+|4,53,1,0,1730474031,"~/.bashrc"
+'6  1  0  ~/.bashrc
+|4,54,1,0,1730474031,"~/.bashrc"
+'7  1  0  ~/.bashrc
+|4,55,1,0,1730474031,"~/.bashrc"
+'8  1  0  ~/.bashrc
+|4,56,1,0,1730474031,"~/.bashrc"
+'9  1  0  ~/.bashrc
+|4,57,1,0,1730474008,"~/.bashrc"
 
 # Jumplist (newest first):
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
+-'  15  0  ~/.bashrc
+|4,39,15,0,1730474231,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1729793399,"~/.bashrc"
--'  35  6  ~/.bashrc
-|4,39,35,6,1729793395,"~/.bashrc"
--'  35  0  ~/.bashrc
-|4,39,35,0,1729793262,"~/.bashrc"
--'  35  0  ~/.bashrc
-|4,39,35,0,1729793262,"~/.bashrc"
+|4,39,1,0,1730474225,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1729793257,"~/.bashrc"
+|4,39,1,0,1730474225,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1729793257,"~/.bashrc"
+|4,39,1,0,1730474225,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1729793240,"~/.bashrc"
+|4,39,1,0,1730474225,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1729793240,"~/.bashrc"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  1  0  ~/.config/nvim/init.lua
-|4,39,1,0,1729793226,"~/.config/nvim/init.lua"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
--'  41  16  ~/.vimrc
-|4,39,41,16,1729793219,"~/.vimrc"
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1730474225,"~/.bashrc"
 
 # History of marks within files (newest to oldest):
 
 > ~/.bashrc
-	*	1729793398	0
-	"	1	0
-	^	15	0
-	.	14	23
+	*	1730474231	0
+	"	15	0
+	^	1	0
+	.	1	0
 	+	6	14
 	+	6	19
 	+	6	15
@@ -400,19 +420,182 @@ $
 	+	43	22
 	+	6	0
 	+	14	23
-
-> ~/.config/nvim/init.lua
-	*	1729793224	0
-	"	1	0
+	+	1	0
 
 > ~/.vimrc
-	*	1729793218	0
-	"	41	16
-	^	41	17
-	.	41	16
+	*	1730473945	0
+	"	42	18
+	^	42	19
+	.	42	18
 	+	8	15
 	+	43	37
-	+	41	16
+	+	43	16
+	+	43	2
+	+	43	0
+	+	22	47
+	+	43	38
+	+	43	0
+	+	23	40
+	+	42	18
+
+> ~/.vim/r
+	*	1730473759	0
+	"	1	0
+
+> ~/.vim/autoload/plug.vim
+	*	1730473744	0
+	"	1	0
+
+> ~/.config/emacs/init.el
+	*	1730469274	0
+	"	34	0
+	^	280	0
+	.	279	44
+	+	279	44
+
+> ~/.config/fastfetch/config.jsonc
+	*	1730468410	0
+	"	1	0
+
+> ~/.config/gtk-3.0/settings.ini
+	*	1730464252	0
+	"	9	31
+	^	9	32
+	.	9	31
+	+	9	20
+	+	9	1
+	+	9	32
+	+	14	24
+	+	9	31
+
+> ~/.config/fastfetch/f
+	*	1730456201	0
+	"	1	0
+
+> /usr/lib/systemd/system/systemd-networkd.service
+	*	1730365408	0
+	"	65	0
+
+> ~/.config/mpv/mpv.conf
+	*	1730352445	0
+	"	1	0
+
+> ~/.local/git/dotfiles/kitty/kitty.conf
+	*	1730311715	0
+	"	1	0
+
+> ~/.local/git/dotfiles/alacritty/alacritty.toml
+	*	1730311708	0
+	"	1	1
+
+> ~/.local/git/dotfiles/wallp.sh
+	*	1730311683	0
+	"	4	4
+	^	4	26
+	.	4	25
+	+	4	25
+
+> ~/.local/git/dotfiles/screenshot.sh
+	*	1730311679	0
+	"	7	0
+	^	7	23
+	.	7	22
+	+	7	22
+
+> ~/.config/screenshot.sh
+	*	1730311625	0
+	"	7	13
+
+> ~/.config/git-prompt.sh
+	*	1730137558	0
+	"	1	0
+
+> ~/Documents/projects/yt-m3u.sh
+	*	1730023121	0
+	"	3	0
+	^	3	0
+	.	2	0
+	+	36	42
+	+	4	52
+	+	2	0
+
+> ~/.gitconfig
+	*	1730015378	0
+	"	1	0
+
+> ~/.scripts/alias
+	*	1730009197	0
+	"	6	0
+	^	2	0
+	.	3	0
+	+	1	11
+	+	14	17
+	+	3	0
+
+> ~/.scripts/zoxide
+	*	1730009193	0
+	"	132	0
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/.tmux.conf
+	*	1730008122	0
+	"	10	0
+
+> ~/Documents/projects/fireless.sh
+	*	1730007763	0
+	"	30	3
+	^	30	4
+	.	31	0
+	+	59	4
+	+	58	0
+	+	30	4
+	+	31	0
+
+> ~/.config/gtkrc
+	*	1729841859	0
+	"	1	0
+
+> ~/.config/pupgui/config.ini
+	*	1729841813	0
+	"	1	0
+
+> ~/.config/nvim/init.lua
+	*	1729839318	0
+	"	146	0
+
+> ~/.config/picom/picom.conf
+	*	1729837600	0
+	"	1	0
+
+> ~/.vimmr
+	*	1729795351	0
+	"	1	0
+
+> ~/.cache/nvim/fidget.nvim.log
+	*	1729795255	0
+	"	1	0
+
+> ~/.local/git/dotfiles/.scripts/alias
+	*	1729794941	0
+	"	7	0
+
+> ~/.local/git/dotfiles/.bash_profile
+	*	1729794933	0
+	"	1	0
+
+> ~/.local/git/dotfiles/.bashrc
+	*	1729794925	0
+	"	12	12
+	^	12	13
+	.	12	13
+	+	11	30
+	+	12	13
+
+> ~/.local/git/dotfiles/.bahrc
+	*	1729794899	0
+	"	1	0
 
 > ~/Documents/data/EMIR/dotfiles
 	*	1729788789	0
@@ -554,22 +737,6 @@ $
 	.	3	159
 	+	3	159
 
-> ~/.scripts/alias
-	*	1729766556	0
-	"	15	0
-	^	2	0
-	.	3	0
-	+	1	11
-	+	14	17
-	+	3	0
-
-> ~/.scripts/zoxide
-	*	1729751301	0
-	"	132	0
-	^	1	11
-	.	1	10
-	+	1	10
-
 > ~/.nvidia-settings-rc
 	*	1729750819	0
 	"	1	0
@@ -578,20 +745,8 @@ $
 	*	1729749396	0
 	"	1	0
 
-> ~/.config/fastfetch/config.jsonc
-	*	1729749326	0
-	"	1	0
-
 > ~/.gtkrc-2.0
 	*	1729748696	0
-	"	1	0
-
-> ~/.tmux.conf
-	*	1729593509	0
-	"	10	0
-
-> ~/.config/picom/picom.conf
-	*	1729438891	0
 	"	1	0
 
 > ~/.config/pipewire/pipewire-pulse.conf
