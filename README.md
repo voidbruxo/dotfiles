@@ -9,11 +9,23 @@ These are my minimal dotfiles that I use daily. They consist of a simple Window 
 - Music Player : cmus :D (it's TUI BTW)
 - Editor: ✍️ vim / emacs
 - Wallpaper Set: 🖼️ nitrogen / feh
+<<<<<<< HEAD
 - Run Prompt: 🚀 dmenu
 - Compositor: 🎨 picom
 - Font for Bar: 💼 JetBrainsMono Nerd Font
 - Screenshot Tool: 📸 scrot
 - backlight control : brightnessctl ☀️
 - 
+=======
+- Run Prompt: 🚀 rofi, 🪟 qtile run, dmenu
+- Compositor: 🎨 picom
+- Font for Bar: 💼 JetBrainsMono Nerd Font
+- Screenshot Tool: 📸 scrot
+- Lock Screen : 🔒 slock
+- backlight control : brightnessctl ☀️
+- polkit : lxpolkit 🌟
+- Shell : Fish / Bash
+- root privileges controler : opendoas / sudo
+>>>>>>> f4df9e5 (okey dokey)
 ## my note
 - TL;DR :: Feel free to customize and use these dotfiles according to your needs. 😊
