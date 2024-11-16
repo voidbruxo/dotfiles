@@ -26,3 +26,7 @@ media-libs/libva-intel-driver X wayland hybrid
 sys-auth/polkit -gtk
 media-fonts/nerdfonts dejavusansmono hack jetbrainsmono liberationmono ubuntumono ubuntusans
 kde-plasma/kwin -lock
+app-misc/doublecmd-bin -gtk
+gui-apps/waybar udev logind systemd pipewire tray
+dev-libs/libdbusmenu gtk3
+media-fonts/fontawesome X ttf otf
