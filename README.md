@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # dotfiles 👨🏻‍💻🌟💻
 These are my minimal dotfiles that I use daily. They consist of a simple Window Manager (DWM) config that is designed to be minimalistic, without any unnecessary bloatware. It is not intended for ricing, but rather for daily use with low dependencies.
 
 - TL;DR :: Feel free to customize and use these dotfiles according to your needs. 😊
 =======
+=======
+>>>>>>> 8fa51f1 (Initial commit)
 # dotfiles
 
 
@@ -97,4 +100,7 @@ For open source projects, say how it is licensed.
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+<<<<<<< HEAD
+>>>>>>> 8fa51f1 (Initial commit)
+=======
 >>>>>>> 8fa51f1 (Initial commit)
