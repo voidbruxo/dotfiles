@@ -31,31 +31,31 @@
 }
 
 #clock {
-    background-color: @surface1;
+    background-color: @pink;
 }
 
 #battery {
-    background-color: @surface1;
+    background-color: @maroon;
 }
 
 #backlight {
-    background-color: @surface1;
+    background-color: @red;
 }
 
 #memory {
-    background-color: @surface1;
+    background-color: @green;
 }
 
 #cpu {
-    background-color: @surface1;
+    background-color: @sapphire;
 }
 
 #audio-input {
-    background-color: @surface1;
+    background-color: @teal;
 }
 
 #audio-output {
-    background-color: @surface1;
+    background-color: @yellow;
 }
 
 #workspaces button {
@@ -66,7 +66,7 @@
 }
 
 #workspaces button:hover {
-    background-color: @surface0;
+    background-color: @curst;
 }
 
 #workspaces button.focused {
