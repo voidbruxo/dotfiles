@@ -32,30 +32,37 @@
 
 #clock {
     background-color: @pink;
+    color: #1e1e2e;
 }
 
 #battery {
     background-color: @maroon;
+    color: #1e1e2e;
 }
 
 #backlight {
     background-color: @red;
+    color: #1e1e2e;
 }
 
 #memory {
     background-color: @green;
+    color: #1e1e2e;
 }
 
 #cpu {
     background-color: @sapphire;
+    color: #1e1e2e;
 }
 
 #audio-input {
     background-color: @teal;
+    color: #a6adc8;
 }
 
 #audio-output {
     background-color: @yellow;
+    color: #a6adc8;
 }
 
 #workspaces button {
@@ -63,14 +70,17 @@
     padding: 0 4px;
     margin: 0 1px;
     transition: background-color 0.3s;
+    color: #a6adc8;
 }
 
 #workspaces button:hover {
-    background-color: @curst;
+    background-color: @curst; 
+    color: #a6adc8;
 }
 
 #workspaces button.focused {
     background-color: @rosewater; /* Change focused workspace color */
+    color: #a6adc8;
 }
 
 .module .text {
