@@ -10,7 +10,6 @@ app-misc/tmux vim-syntax
 app-misc/fastfetch -networkmanager
 sys-kernel/linux-firmware redistributable -savedconfig -bindist -compress-xz compress-zstd deduplicate initramfs unknown-license
 sys-firmware/intel-microcode initramfs
-net-misc/networkmanager -bluetooth concheck elogind -gtk-doc introspection modemmanager nss policykit -ppp tools -wext wifi dhclient resolvconf
 x11-drivers/nvidia-drivers powerd persistenced
 media-video/pipewire sound-server pipewire-alsa jack-client extra
 media-sound/pulseaudio -daemon
@@ -27,6 +26,8 @@ sys-auth/polkit -gtk
 media-fonts/nerdfonts dejavusansmono hack jetbrainsmono liberationmono ubuntumono ubuntusans
 kde-plasma/kwin -lock
 app-misc/doublecmd-bin -gtk
-gui-apps/waybar udev logind systemd pipewire tray
+gui-apps/waybar jack evdev udev logind systemd pipewire tray pulseaudio
 dev-libs/libdbusmenu gtk3
 media-fonts/fontawesome X ttf otf
+gui-libs/wlroots X drm lcms libinput session vulkan liftoff x11-backend xcb-errors
+net-vpn/tor seccomp server systemd zstd -caps -doc -lzma scrypt -selinux -test tor-hardening -verify-sig
