@@ -20,8 +20,7 @@ location = /var/db/repos/gig
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/gig.git
 
-
 [librewolf]
 location = /var/db/repos/librewolf
 sync-type = git
-sync-uri = https://codeberg.org/librewolf/gentoo.git
+sync-uri = https://github.com/gentoo-mirror/librewolf.git

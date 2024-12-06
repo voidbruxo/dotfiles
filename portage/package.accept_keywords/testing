@@ -1,0 +1,7 @@
+app-shells/zoxide ~amd64
+app-misc/yazi ~amd64
+app-misc/brightnessctl ~amd64
+sys-fs/jmtpfs ~amd64
+sys-fs/gdu ~amd64
+dev-python/pipx ~amd64
+dev-python/userpath ~amd64

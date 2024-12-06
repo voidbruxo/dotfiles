@@ -31,3 +31,7 @@ dev-libs/libdbusmenu gtk3
 media-fonts/fontawesome X ttf otf
 gui-libs/wlroots X drm lcms libinput session vulkan liftoff x11-backend xcb-errors
 net-vpn/tor seccomp server systemd zstd -caps -doc -lzma scrypt -selinux -test tor-hardening -verify-sig
+dev-lang/python sqlite
+net-misc/curl http2
+net-misc/aria2 bittorrent metalink scripts xmlrpc
+
