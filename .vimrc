@@ -6,7 +6,10 @@ syntax on
 " enable mouse
 set mouse=a
 set ttymouse=sgr
-
+set relativenumber
+set tabstop=4
+set expandtab
+set cursorline
 filetype plugin indent on
 set nocompatible
 syntax enable

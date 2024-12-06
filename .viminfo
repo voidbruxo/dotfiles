@@ -11,28 +11,42 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/1.1.1.1
+~MSle0~/po
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1730475321,,"q"
+|2,0,1733458341,,"q"
+:wq
+|2,0,1733457932,,"wq"
+:q!
+|2,0,1733456087,,"q!"
+:qQ
+|2,0,1733456084,,"qQ"
+:e .cache/flatpak/
+|2,0,1733456075,,"e .cache/flatpak/"
+:1
+|2,0,1733424348,,"1"
+:.,.+1011
+|2,0,1733424346,,".,.+1011"
+:PlugUpdate
+|2,0,1733424052,,"PlugUpdate"
+:Lazy
+|2,0,1733420553,,"Lazy"
+:w
+|2,0,1733407809,,"w"
+:Plugu
+|2,0,1733379066,,"Plugu"
+:1127
+|2,0,1733374357,,"1127"
+:PlugInstall
+|2,0,1733334101,,"PlugInstall"
 :e .bashrc
 |2,0,1730474083,,"e .bashrc"
-:1
-|2,0,1730474003,,"1"
-:q!
-|2,0,1730473990,,"q!"
-:PlugInstall
-|2,0,1730473975,,"PlugInstall"
 :"q
 |2,0,1730473945,,"\"q"
-:w
-|2,0,1730473944,,"w"
-:wq
-|2,0,1730473766,,"wq"
 :e .vim/r
 |2,0,1730473759,,"e .vim/r"
 :colorscheme catppuccin-mocha
@@ -83,6 +97,14 @@ $
 |2,0,1728575590,,"'<,'>q"
 
 # Search String History (newest to oldest):
+?/po
+|2,1,1733408016,47,"po"
+?/Font
+|2,1,1733406251,47,"Font"
+?/font
+|2,1,1733406248,47,"font"
+?/RESTORE
+|2,1,1733335811,47,"RESTORE"
 ?/1.1.1.1
 |2,1,1730365389,47,"1.1.1.1"
 ? @$
@@ -145,267 +167,283 @@ $
 	#
 |3,0,0,0,1,0,1730009196,"#"
 ""1	LINE	0
-	colorscheme catppuccin
-|3,1,1,1,1,0,1730473765,"colorscheme catppuccin"
+	exec picom &
+|3,1,1,1,1,0,1733419564,"exec picom &"
 "2	LINE	0
-	" vim theme magic
-|3,0,2,1,1,0,1730473336,"\" vim theme magic"
+	wmname LG3D &
+|3,0,2,1,1,0,1733419563,"wmname LG3D &"
 "3	LINE	0
-	set termguicolors
-|3,0,3,1,1,0,1730473336,"set termguicolors"
+	
+|3,0,3,1,1,0,1733389135,""
 "4	LINE	0
-	let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-|3,0,4,1,1,0,1730473335,"let &t_8b = \"\\<Esc>[48;2;%lu;%lu;%lum\""
+	eval "$(zoxide init bash)"
+|3,0,4,1,1,0,1733389134,"eval \"$(zoxide init bash)\""
 "5	LINE	0
-	let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-|3,0,5,1,1,0,1730473335,"let &t_8f = \"\\<Esc>[38;2;%lu;%lu;%lum\""
+	comp-lzo
+|3,0,5,1,1,0,1733384867,"comp-lzo"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1730473333,""
+	allow-compression yes
+|3,0,6,1,1,0,1733384849,"allow-compression yes"
 "7	LINE	0
-	# gtk-icon-theme-name=breeze-dark
-|3,0,7,1,1,0,1730464118,"# gtk-icon-theme-name=breeze-dark"
+	colorscheme catppuccin
+|3,0,7,1,1,0,1730473765,"colorscheme catppuccin"
 "8	LINE	0
-	
-	
-|3,0,8,1,2,0,1730023119,"",""
+	" vim theme magic
+|3,0,8,1,1,0,1730473336,"\" vim theme magic"
 "9	LINE	0
-	fi
-|3,0,9,1,1,0,1730023118,"fi"
+	set termguicolors
+|3,0,9,1,1,0,1730473336,"set termguicolors"
 "i	CHAR	0
 	!/
 |3,0,18,0,1,0,1729752036,"!/"
+"w	CHAR	0
+	 
+|3,0,32,0,1,0,1733379092," "
 "-	CHAR	0
-	#
-|3,0,36,0,1,0,1729795304,"#"
+	p
+|3,0,36,0,1,0,1733384570,"p"
 
 # File marks:
-'0  15  0  ~/.bashrc
-|4,48,15,0,1730474231,"~/.bashrc"
-'1  1  0  ~/.bashrc
-|4,49,1,0,1730474217,"~/.bashrc"
-'2  1  0  ~/.bashrc
-|4,50,1,0,1730474217,"~/.bashrc"
-'3  1  0  ~/.bashrc
-|4,51,1,0,1730474086,"~/.bashrc"
-'4  1  0  ~/.bashrc
-|4,52,1,0,1730474086,"~/.bashrc"
-'5  1  0  ~/.bashrc
-|4,53,1,0,1730474031,"~/.bashrc"
-'6  1  0  ~/.bashrc
-|4,54,1,0,1730474031,"~/.bashrc"
-'7  1  0  ~/.bashrc
-|4,55,1,0,1730474031,"~/.bashrc"
-'8  1  0  ~/.bashrc
-|4,56,1,0,1730474031,"~/.bashrc"
-'9  1  0  ~/.bashrc
-|4,57,1,0,1730474008,"~/.bashrc"
+'0  1  0  ~/.xinitrc
+|4,48,1,0,1733458343,"~/.xinitrc"
+'1  1  0  ~/.x
+|4,49,1,0,1733458341,"~/.x"
+'2  34  6  ~/.bashrc
+|4,50,34,6,1733458117,"~/.bashrc"
+'3  11  18  ~/.zshrc
+|4,51,11,18,1733457933,"~/.zshrc"
+'4  12  0  ~/.zshrc
+|4,52,12,0,1733457916,"~/.zshrc"
+'5  12  0  ~/.zshrc
+|4,53,12,0,1733457916,"~/.zshrc"
+'6  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,54,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+'7  1  0  ~/.vimrc
+|4,55,1,0,1733456065,"~/.vimrc"
+'8  12  24  ~/.zshrc
+|4,56,12,24,1733424765,"~/.zshrc"
+'9  12  24  ~/.zshrc
+|4,57,12,24,1733424765,"~/.zshrc"
 
 # Jumplist (newest first):
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  15  0  ~/.bashrc
-|4,39,15,0,1730474231,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1730474225,"~/.bashrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1733458343,"~/.xinitrc"
+-'  1  0  ~/.x
+|4,39,1,0,1733458341,"~/.x"
+-'  1  0  ~/.x
+|4,39,1,0,1733458341,"~/.x"
+-'  34  6  ~/.bashrc
+|4,39,34,6,1733458117,"~/.bashrc"
+-'  34  6  ~/.bashrc
+|4,39,34,6,1733458117,"~/.bashrc"
+-'  34  6  ~/.bashrc
+|4,39,34,6,1733458117,"~/.bashrc"
+-'  34  6  ~/.bashrc
+|4,39,34,6,1733458117,"~/.bashrc"
+-'  11  18  ~/.zshrc
+|4,39,11,18,1733457933,"~/.zshrc"
+-'  11  18  ~/.zshrc
+|4,39,11,18,1733457933,"~/.zshrc"
+-'  11  18  ~/.zshrc
+|4,39,11,18,1733457933,"~/.zshrc"
+-'  11  18  ~/.zshrc
+|4,39,11,18,1733457933,"~/.zshrc"
+-'  11  18  ~/.zshrc
+|4,39,11,18,1733457933,"~/.zshrc"
+-'  11  18  ~/.zshrc
+|4,39,11,18,1733457933,"~/.zshrc"
+-'  11  18  ~/.zshrc
+|4,39,11,18,1733457933,"~/.zshrc"
+-'  11  18  ~/.zshrc
+|4,39,11,18,1733457933,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457922,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457922,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457922,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457922,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457922,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457922,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457922,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457922,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457916,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457916,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457916,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457916,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457916,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457916,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457916,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1733457916,"~/.zshrc"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  2  3  ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+|4,39,2,3,1733456087,"~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub"
+-'  6  0  ~/NERD_tree_win_1
+|4,39,6,0,1733456079,"~/NERD_tree_win_1"
+-'  8  4  ~/NERD_tree_win_1
+|4,39,8,4,1733456079,"~/NERD_tree_win_1"
+-'  6  0  ~/NERD_tree_win_1
+|4,39,6,0,1733456079,"~/NERD_tree_win_1"
+-'  8  4  ~/NERD_tree_win_1
+|4,39,8,4,1733456079,"~/NERD_tree_win_1"
+-'  6  0  ~/NERD_tree_win_1
+|4,39,6,0,1733456079,"~/NERD_tree_win_1"
 
 # History of marks within files (newest to oldest):
 
+> ~/.xinitrc
+	*	1733458342	0
+	"	1	0
+	^	1	14
+	.	1	0
+	+	1	13
+	+	1	0
+
+> ~/.x
+	*	1733458339	0
+	"	1	0
+
 > ~/.bashrc
-	*	1730474231	0
-	"	15	0
+	*	1733458088	0
+	"	34	6
 	^	1	0
 	.	1	0
 	+	6	14
@@ -422,21 +460,276 @@ $
 	+	14	23
 	+	1	0
 
+> ~/.zshrc
+	*	1733457932	0
+	"	11	18
+	^	11	19
+	.	11	19
+	+	82	26
+	+	1	0
+	+	11	17
+	+	83	27
+	+	12	25
+	+	13	0
+	+	11	19
+
+> ~/.cache/flatpak/system-cache/summaries/flathub-x86_64-abba072264493cd71e0252c4cc369258647d2105939e93bbb37c3d9e280c517e.sub
+	*	1733456084	0
+	"	2	3
+
+> ~/NERD_tree_win_1
+	*	1733456079	0
+	"	6	0
+	.	1	0
+	+	1	0
+
 > ~/.vimrc
-	*	1730473945	0
-	"	42	18
-	^	42	19
-	.	42	18
+	*	1733456062	0
+	"	1	0
+	^	12	14
+	.	12	13
 	+	8	15
-	+	43	37
-	+	43	16
-	+	43	2
-	+	43	0
-	+	22	47
-	+	43	38
-	+	43	0
-	+	23	40
-	+	42	18
+	+	46	37
+	+	46	16
+	+	46	2
+	+	46	0
+	+	25	47
+	+	46	38
+	+	46	0
+	+	26	40
+	+	45	18
+	+	12	13
+
+> ~/.scripts/alias
+	*	1733424685	0
+	"	6	0
+	^	2	0
+	.	3	0
+	+	1	11
+	+	14	17
+	+	3	0
+
+> ~/.zcompdump-genbox-5.9.zwc
+	*	1733424647	0
+	"	1	0
+
+> ~/.zprofile
+	*	1733423841	0
+	"	1	0
+
+> ~/.z
+	*	1733423828	0
+	"	1	0
+
+> ~/zshrc
+	*	1733423701	0
+	"	1	0
+
+> ~/.zsh
+	*	1733423670	0
+	"	1	0
+
+> ~/Documents/projects/test.py
+	*	1733421957	0
+	"	3	0
+
+> /var/tmp/testing.PQNydUIh
+	*	1733421463	0
+	"	7	18
+	^	7	19
+	.	7	19
+	+	7	19
+
+> /var/tmp/testing.icuBpe3d
+	*	1733421424	0
+	"	6	21
+	^	6	22
+	.	6	21
+	+	6	21
+
+> ~/Documents/data/Cus/Bear-DE.ovpn
+	*	1733419863	0
+	"	16	11
+	^	16	12
+	.	16	11
+	+	13	0
+	+	15	0
+	+	13	22
+	+	51	19
+	+	50	7
+	+	5	14
+	+	56	23
+	+	16	0
+	+	4	0
+	+	16	11
+
+> ~/.dwm/autostart.sh
+	*	1733419558	0
+	"	8	0
+	^	8	25
+	.	8	24
+	+	6	20
+	+	11	13
+	+	6	10
+	+	7	19
+	+	6	11
+	+	8	23
+	+	9	0
+	+	8	24
+
+> ~/.config/aria2/aria2.conf
+	*	1733415941	0
+	"	5	0
+	^	5	17
+	.	5	16
+	+	5	16
+
+> ~/.config/fish/functions/update.fish
+	*	1733414230	0
+	"	1	11
+
+> ~/.config/emacs/early-init.el
+	*	1733409927	0
+	"	115	0
+
+> ~/.config/emacs/co
+	*	1733409913	0
+	"	1	0
+
+> ~/.config/doom/config.el
+	*	1733409805	0
+	"	28	83
+	^	28	84
+	.	28	83
+	+	30	70
+	+	31	83
+	+	28	74
+	+	27	0
+	+	28	0
+	+	27	58
+	+	28	73
+	+	27	68
+	+	28	83
+
+> ~/.config/doom/init.el
+	*	1733409738	0
+	"	1	0
+
+> ~/.config/emacs/init.el
+	*	1733408280	0
+	"	163	0
+	^	34	75
+	.	34	74
+	+	1324	44
+	+	1045	44
+	+	766	21
+	+	767	33
+	+	558	44
+	+	279	44
+	+	34	74
+
+> ~/NERD_tree_tab_1
+	*	1733406400	0
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/.wget-hsts
+	*	1733404405	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> /var/tmp/testing.w9lSnk8J
+	*	1733402236	0
+	"	1	0
+
+> ~/.config/fish/config.fish
+	*	1733389167	0
+	"	14	24
+	^	14	25
+	.	14	24
+	+	18	26
+	+	9	12
+	+	12	3
+	+	13	0
+	+	16	0
+	+	13	0
+	+	14	24
+
+> ~/Documents/data/Cus/userpass
+	*	1733384561	0
+	"	2	8
+	^	2	9
+	.	2	8
+	+	2	8
+
+> ~/.config/wallp.sh
+	*	1733383960	0
+	"	1	0
+
+> ~/.config/wa
+	*	1733383958	0
+	"	1	0
+
+> ~/Documents/update-bit.sh
+	*	1733377030	0
+	"	30	0
+	^	30	0
+	.	29	17
+	+	29	17
+
+> ~/.mozilla/firefox/our25gp2.Narsil/user.js
+	*	1733374373	0
+	"	1189	1
+	^	1170	70
+	.	1170	69
+	+	1170	69
+
+> /var/tmp/useflags.GdsTdV9z
+	*	1733371089	0
+	"	36	48
+	^	36	49
+	.	36	48
+	+	36	48
+
+> /var/tmp/useflags.7pyX9MYY
+	*	1733371059	0
+	"	36	41
+	^	36	42
+	.	36	41
+	+	35	19
+	+	36	41
+
+> ~/.local/bin/nekora
+	*	1733369790	0
+	"	3	33
+	^	3	34
+	.	3	33
+	+	3	33
+
+> /var/tmp/tlprA7AVu6x.conf
+	*	1733335816	0
+	"	467	15
+	^	467	16
+	.	467	0
+	+	467	0
+
+> ~/.bash_profile
+	*	1733335000	0
+	"	9	0
+	^	13	14
+	.	13	13
+	+	9	0
+	+	10	0
+	+	11	0
+	+	9	0
+	+	10	0
+	+	11	2
+	+	15	26
+	+	12	0
+	+	13	13
 
 > ~/.vim/r
 	*	1730473759	0
@@ -445,13 +738,6 @@ $
 > ~/.vim/autoload/plug.vim
 	*	1730473744	0
 	"	1	0
-
-> ~/.config/emacs/init.el
-	*	1730469274	0
-	"	34	0
-	^	280	0
-	.	279	44
-	+	279	44
 
 > ~/.config/fastfetch/config.jsonc
 	*	1730468410	0
@@ -522,15 +808,6 @@ $
 > ~/.gitconfig
 	*	1730015378	0
 	"	1	0
-
-> ~/.scripts/alias
-	*	1730009197	0
-	"	6	0
-	^	2	0
-	.	3	0
-	+	1	11
-	+	14	17
-	+	3	0
 
 > ~/.scripts/zoxide
 	*	1730009193	0
@@ -690,45 +967,9 @@ $
 	*	1729787391	0
 	"	1	0
 
-> ~/.xinitrc
-	*	1729786324	0
-	"	3	13
-	^	3	14
-	.	3	13
-	+	2	13
-	+	3	13
-
 > ~/Downloads/dwm/config.def.h
 	*	1729784218	0
 	"	81	65
-
-> ~/.config/wallp.sh
-	*	1729770044	0
-	"	1	0
-
-> ~/.dwm/autostart.sh
-	*	1729769901	0
-	"	5	0
-	^	6	17
-	.	6	17
-	+	6	20
-	+	7	13
-	+	6	17
-
-> ~/.bash_profile
-	*	1729769874	0
-	"	13	0
-	^	13	14
-	.	13	13
-	+	9	0
-	+	10	0
-	+	11	0
-	+	9	0
-	+	10	0
-	+	11	2
-	+	15	26
-	+	12	0
-	+	13	13
 
 > ~/.local/bin/mat-lab
 	*	1729766570	0
@@ -851,13 +1092,6 @@ $
 	*	1729405780	0
 	"	1	0
 
-> ~/.wget-hsts
-	*	1729343743	0
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1	0
-
 > ~/.w
 	*	1729318692	0
 	"	1	0
@@ -908,63 +1142,4 @@ $
 
 > ~/.dbus/session-bus/f860e8ef274e457aa4072ce5bb3d3d27-0
 	*	1728585047	0
-	"	1	0
-
-> ~/.config/pipewire/jack.conf
-	*	1728581812	0
-	"	67	35
-	^	67	36
-	.	67	35
-	+	10	0
-	+	68	36
-	+	69	29
-	+	68	26
-	+	67	35
-
-> /etc/pipewire/pipewire.conf
-	*	1728580781	0
-	"	42	35
-	^	43	36
-	.	43	35
-	+	43	35
-
-> ~/.config/ranger/rifle.conf
-	*	1728577312	0
-	"	1	0
-
-> ~/.java/fonts/1.8.0_202/fcinfo-1-gentux-"Gentoo"-null-en.properties
-	*	1728575936	0
-	"	1	0
-
-> ~/dotfiles/.xmonad/xmonad.hs
-	*	1728500828	0
-	"	127	0
-
-> ~/.vimr
-	*	1728500750	0
-	"	1	0
-
-> ~/w.
-	*	1728493078	0
-	"	1	0
-
-> ~/.local/bin/updatesystem
-	*	1728484281	0
-	"	39	0
-	^	33	41
-	.	33	40
-	+	16	0
-	+	15	77
-	+	33	40
-
-> ~/.local/bin/backup
-	*	1728484114	0
-	"	2	21
-
-> ~/dotfiles/.local/bin/rofi-anime
-	*	1728482311	0
-	"	1	0
-
-> ~/dotfiles/.local/bin/multilib-install
-	*	1728482300	0
 	"	1	0
