@@ -1,0 +1,4 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/geek/.config/emacs/"
+  (dired-filename . "/home/geek/.config/emacs/init.el"))
+ ("/home/geek/.config/emacs/init.el" . 1223))
