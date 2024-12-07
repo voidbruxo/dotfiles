@@ -25,6 +25,16 @@ zinit snippet OMZP::git
 zinit snippet OMZP::sudo
 zinit snippet OMZP::docker
 
+# Fix the Shitty Problem for zinit for docker
+DIRECTORY="$HOME/.cache/zinit/completions/"
+if [[ ! -d "$DIRECTORY" ]]; then
+  # If it doesn't exist, create it
+  mkdir -p "$DIRECTORY"
+else
+  clear
+fi
+
+
 # Load Completions
 autoload -U compinit && compinit
 
