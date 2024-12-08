@@ -1,10 +1,16 @@
 configuration {
-    display-ssh:    "";
-    display-run:    "";
-    display-drun:   "";
-    display-window: "";
-    display-combi:  "";
-    show-icons:     true;
+    show-icons: true;
+    font: "JetBrainsMono Nerd Font 12";
+    icon-theme: "Tela-purple-dark";
+
+    display-ssh:    "󰣀 ssh:";
+    display-run:    "󱓞 run:";
+    display-drun:   "󰣖 drun:";
+    display-window: "󱂬 window:";
+    display-combi:  "󰕘 combi:";
+    display-filebrowser: "󰉋 filebrowser:";
+
+    dpi: 80;
 }
 
-@theme "~/.config/rofi/gruvbox-material.rasi"
+@theme "catppuccin-mocha"

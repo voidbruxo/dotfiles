@@ -1,0 +1,29 @@
+[pyprland]
+plugins = [
+ "expose",
+ "fetch_client_menu",
+ "lost_windows",
+ "magnify",
+ "scratchpads",
+ "shift_monitors",
+ "toggle_special",
+ "workspaces_follow_focus",
+]
+
+# using variables for demonstration purposes (not needed)
+[pyprland.variables]
+term_classed = "kitty --class"
+pavu_classed = "pavucontrol"
+
+[scratchpads.term]
+animation = "fromTop"
+command = "[term_classed] main-dropterm"
+size = "75% 60%"
+class = "main-dropterm"
+max_size = "1920px 100%"
+
+[scratchpads.pavu]
+animation = "fromTop"
+command = "[pavu_classed]"
+size = "50% 50%"
+max_size = "1920px 100%"

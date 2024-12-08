@@ -258,9 +258,6 @@
          (lisp-interaction-mode . enable-paredit-mode)
          (scheme-mode . enable-paredit-mode)))
 
-(use-package lua-mode
-  :ensure t)
-
 (use-package markdown-mode
   :ensure t
   ;; These extra modes help clean up the Markdown editing experience.
