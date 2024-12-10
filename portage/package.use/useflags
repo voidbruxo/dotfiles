@@ -1,7 +1,7 @@
 sys-kernel/installkernel dracut systemd
 sys-fs/btrfs-progs zstd udev
 sys-boot/grub -themes -libzfs
-media-video/ffmpeg v4l openh264 vaapi vdpau cuda x265 webp nvenc vulkan nvencpulseaudio opencl openal bluray codec2 jack opus lzma libv4l libdrm libcaca libass
+media-video/ffmpeg vdpau alsa pulseaudio jack x264 x265 libvpx libaom nvenc vaapi mp3 vorbis opus fdk speex network srt libass libplacebo bluray theora webp postproc vidstab gpl threads doc amr amrenc gsm twolame libilbc libdrm cdio v4l rtmp frei0r rubberband snappy zimg jpeg2k jpegxl vulkan opengl openal cuda opencl  virtual/opencl openh264 codec2 cuda libv4l rav1e chromium
 media-libs/mesa vaapi vdpau
 media-video/mpv pipewire vdpau vaapi alsa opengl vulkan nvenc -cdda bluray pulseaudio jack aqua sdl sndio libcaca openal
 media-fonts/noto X extra cjk
@@ -34,4 +34,9 @@ net-vpn/tor seccomp server systemd zstd -caps -doc -lzma scrypt -selinux -test t
 dev-lang/python sqlite
 net-misc/curl http2
 net-misc/aria2 bittorrent metalink scripts xmlrpc
-
+gnome-extra/nm-applet appindicator
+net-wireless/blueman pulseaudio
+gnome-base/gvfs mtp fuse archive udisks policykit zeroconf bluray
+app-editors/emacs dynamic-loading libxml2 tiff tree-sitter harfbuzz xattr gui gtk dbus jpeg json gzip-el
+gui-wm/hyprland X -legacy-renderer systemd
+media-libs/opencv contribdnn contrib
