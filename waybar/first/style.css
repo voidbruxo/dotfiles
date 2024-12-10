@@ -2,23 +2,21 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: JetBrainsMono Nerd Font, FontAwesome, sans-serif;
-    font-size: 14px;
-    min-height: 11px;
-    background-color: @base;
-    color: #cdd6f4;
+    font-size: 11px;
+    min-height: 15px;
 }
 /* General Styling */
 #bar {
-    color: @text;
     background-color: @base;
+    color: @text;
     border-radius: 3px; /* Rounded corners for the entire bar */
 }
 
 /* Module Styles */
 .module {
     border-radius: 3px;
-    padding: 0px 5px;
-    margin: 0 3px; /* Space between modules */
+    padding: 0px 7px;
+    margin: 0 1px; /* Space between modules */
     transition: background-color 0.3s;
 }
 
