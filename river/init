@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/bin/sh
 
 # This is the example configuration file for river.
 #
@@ -10,10 +10,16 @@
 PATH="$HOME/.local/bin/:$PATH"
 swaybg -m fill -i /home/geek/Pictures/wall/dwt1/0188.jpg &
 riverctl spawn "~/.local/bin/levee pulse backlight battery"
+riverctl spawn "dunst"
+riverctl border-width 0
+
+riverctl keyboard-layout -options grp:alt_shift_toggle us,ir
+
 # Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
 
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
 riverctl map normal Super Return spawn alacritty
+riverctl map normal Super V spawn kitty
 riverctl map normal Super F spawn "firefox-bin"
 riverctl map normal Super G spawn "rofi -show drun"
 riverctl map normal Super+Shift G spawn "dmenu_run"

@@ -24,6 +24,7 @@ zinit light Aloxaf/fzf-tab
 zinit snippet OMZP::git
 zinit snippet OMZP::sudo
 zinit snippet OMZP::docker
+zinit snippet OMZP::podman
 
 # Fix the Shitty Problem for zinit for docker
 DIRECTORY="$HOME/.cache/zinit/completions/"
@@ -76,7 +77,6 @@ source ~/.scripts/alias
 
 # DIR PATH HOMIES
 PATH="$HOME/.local/bin/:$PATH"
-PATH="$HOME/.config/emacs/bin:$PATH"
 
 # OH My Posh
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
