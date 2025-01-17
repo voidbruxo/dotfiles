@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# alias homies
+alias neofetch="fastfetch"
+alias update="sudo emerge -avuUND --changed-use --with-bdeps=y --binpkg-respect-use=y @world"
+alias firefox="firefox-bin"
+alias bat-info="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
+alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias paclist="sudo eix-installed all | less"
+alias sys-time="stat / | awk '/Birth: /{print }' $argv"
+alias ls="lsd"
+alias mat-exec="LD_PRELOAD=/usr/lib/gcc/x86_64-pc-linux-gnu/13/libstdc++.so prime-run exec matlab -desktop & disown & exit"
+alias ranger="yazi"
+alias vifm="yazi"
+

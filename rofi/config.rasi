@@ -1,0 +1,16 @@
+configuration {
+    show-icons: true;
+    font: "JetBrainsMono Nerd Font 12";
+    icon-theme: "Tela-purple-dark";
+
+    display-ssh:    "󰣀 ssh:";
+    display-run:    "󱓞 run:";
+    display-drun:   "󰣖 drun:";
+    display-window: "󱂬 window:";
+    display-combi:  "󰕘 combi:";
+    display-filebrowser: "󰉋 filebrowser:";
+
+    dpi: 80;
+}
+
+@theme "catppuccin-mocha"
