@@ -1,0 +1,18 @@
+# package.accept_keywords# required by app-misc/brightnessctl (argument)
+=app-misc/brightnessctl-0.5.1 ~amd64
+# required by gdu (argument)
+=sys-fs/gdu-5.25.0 ~amd64
+# required by zoxide (argument)
+=app-shells/zoxide-0.9.6-r1 ~amd64
+# required by x11-misc/primus (argument)
+=x11-misc/primus-0.2-r4 ~amd64
+# required by sys-apps/pnpm-bin (argument)
+=sys-apps/pnpm-bin-10.0.0 ~amd64
+# required by yazi (argument)
+=app-misc/yazi-0.4.2 ~amd64
+# required by app-containers/podman-compose (argument)
+=app-containers/podman-compose-1.3.0 ~amd64
+# required by app-backup/timeshift (argument)
+=app-backup/timeshift-23.07.1 ~amd64
+# required by sys-fs/jmtpfs (argument)
+=sys-fs/jmtpfs-0.5-r1 ~amd64
